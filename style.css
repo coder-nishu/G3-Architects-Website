@@ -20,7 +20,7 @@
 .facts,
 .footer-container,
 .features {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 /* header style start  */
@@ -158,6 +158,10 @@ nav li a {
   display: flex;
   gap: 146px;
 }
+.feature-paragraph{
+  margin-left: 50px;
+  width: 520px;
+}
 .title-bar {
   background: #ff900e;
   width: 5px;
@@ -184,7 +188,7 @@ nav li a {
 }
 .feature-image img{
   height: 90%;
-  width: ;
+  width: 100%;
 }
 .experience-card {
   width: 250px;
