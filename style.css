@@ -162,7 +162,7 @@ nav li a {
   margin: 60px;
 }
 .facts > p {
-  width: 542px;
+  width: 480px;
 }
 .facts-card {
   width: 240px;
@@ -227,8 +227,9 @@ nav li a {
   .team-images {
     grid-template-columns: 1fr;
     margin-left: 50px;
-    width: 40%;
-    height: 3%;
+  }
+  .team-images > img {
+    width: 50%;
   }
   .team-container {
     align-items: flex-start;
