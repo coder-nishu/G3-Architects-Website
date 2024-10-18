@@ -7,6 +7,14 @@
   font-weight: 400;
   font-style: normal;
 }
+.light-grey-text {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
 /* header style start  */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -93,7 +101,6 @@ nav li a {
 }
 /* header style end  */
 
-
 /* Main styles start  */
 /* team-css  */
 
@@ -123,20 +130,61 @@ nav li a {
   font-weight: 500;
   line-height: normal;
 }
-.of-our{
+.of-our {
   color: var(--Dark-01, #131313);
   font-weight: 700;
 }
-.text-features{
-  color: #FF900E;
+.text-features {
+  color: #ff900e;
   font-weight: 700;
 }
-.team-paragraph{
+.team-paragraph {
   color: #727272;
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
 }
+
+/* section - 2 facts css  */
+.facts {
+  margin-left: 240px;
+}
+.facts-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.facts-card-container {
+  display: flex;
+  justify-content: left;
+  margin: 60px;
+}
+.facts > p {
+  width: 542px;
+}
+.facts-card {
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding-top: 20px;
+  margin-right: 40px;
+}
+.card-stats {
+  color: var(--Dark-02, #424242);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.card-title {
+  color: var(--Dark-03, #727272);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+
 
 
 
@@ -151,8 +199,7 @@ nav li a {
     padding: 20px;
   }
   nav,
-  .team-container
-   {
+  .team-container {
     flex-direction: column;
   }
   .banner {
@@ -164,11 +211,12 @@ nav li a {
     font-size: 15px;
     font-weight: 400;
   }
-  .team-images{
-   grid-template-columns: 1fr;
+  .team-images {
+    grid-template-columns: 1fr;
     margin-left: 50px;
+    width: 100%;
   }
-  .team-container{
+  .team-container {
     align-items: flex-start;
   }
 }
@@ -184,11 +232,11 @@ nav li a {
   .banner {
     width: 750px;
   }
-  .team-images{
-     margin-left: 50px;
-   }
+  .team-images {
+    margin-left: 50px;
+  }
 
-  .team-container{
+  .team-container {
     align-items: flex-start;
   }
 }
