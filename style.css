@@ -6,7 +6,9 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin: 0px;
 }
+/* reused css  */
 .light-grey-text {
   color: var(--Dark-03, #727272);
   font-family: "Work Sans";
@@ -15,6 +17,12 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.facts,
+.footer-container,
+.features {
+  margin-left: 240px;
+}
+
 /* header style start  */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -144,12 +152,38 @@ nav li a {
   line-height: 26px;
   font-weight: 500;
 }
-
-/* section - 2 facts css  */
-.facts,
-.footer-container {
-  margin-left: 240px;
+/* section - 1 -> feature style */
+.feature-container {
+  margin-top: 160px;
+  display: flex;
+  gap: 146px;
 }
+.title-bar {
+  background: #ff900e;
+  width: 5px;
+  height: 106px;
+}
+.section-title {
+  color: var(--Dark-01, #131313);
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.feature-title{
+  display: flex;
+  gap: 21px;
+}
+.feature-card {
+  width: 500px;
+  height: 120px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 25px 38px 30px 30px;
+  margin-top: 20px;
+}
+/* section - 2 facts css  */
+
 .facts-title,
 .sponsor-title {
   color: #131313;
@@ -226,7 +260,7 @@ nav li a {
   }
   .team-images {
     grid-template-columns: 1fr;
-    margin-left: 50px;
+    margin-left: 10px;
   }
   .team-images > img {
     width: 50%;
