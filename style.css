@@ -20,7 +20,7 @@
 .facts,
 .footer-container,
 .features {
-  margin-left: 240px;
+  margin-left: 20px;
 }
 
 /* header style start  */
@@ -169,7 +169,7 @@ nav li a {
   font-weight: 700;
   margin-bottom: 24px;
 }
-.feature-title{
+.feature-title {
   display: flex;
   gap: 21px;
 }
@@ -181,6 +181,37 @@ nav li a {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
   padding: 25px 38px 30px 30px;
   margin-top: 20px;
+}
+.feature-image img{
+  height: 90%;
+  width: ;
+}
+.experience-card {
+  width: 250px;
+  height: 120px;
+  border-radius: 8px;
+  background: #ff900e;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  bottom: 90px;
+  right: 80px;
+}
+.year {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.exp {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  
 }
 /* section - 2 facts css  */
 
@@ -238,6 +269,7 @@ nav li a {
   border-radius: 8px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 /* responsive media queeru for mobile  */
@@ -260,20 +292,29 @@ nav li a {
   }
   .team-images {
     grid-template-columns: 1fr;
-    margin-left: 10px;
+    margin-left: 30px;
   }
-  .team-images > img {
-    width: 50%;
+  .team-images > img
+  {
+    width: 60%;
   }
   .team-container {
     align-items: flex-start;
   }
   .facts,
-  .footer-container {
+  .footer-container,
+  .features {
     margin-left: 20px;
   }
-  .facts-card-container {
+  .facts-card-container,
+  .feature-container {
     flex-direction: column;
+  }
+  .feature-image{
+    margin-left: 90px;
+  }
+  .feature-image >img{
+    width: 100%;
   }
 }
 /* responsive media queeru for tablet  */
@@ -282,13 +323,15 @@ nav li a {
     padding: 80px;
   }
   nav,
-  .team-container {
+  .team-container,
+  .feature-container {
     flex-direction: column;
   }
   .banner {
     width: 750px;
   }
-  .team-images {
+  .team-images,
+  .features {
     margin-left: 50px;
   }
 
@@ -303,4 +346,8 @@ nav li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+  .feature-image{
+    margin-left: 50px;
+  }
+  
 }
