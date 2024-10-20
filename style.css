@@ -173,6 +173,7 @@ nav li a {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 24px;
+  width: 80%;
 }
 .feature-title {
   display: flex;
@@ -286,7 +287,7 @@ nav li a {
     flex-direction: column;
   }
   .banner {
-    width: 350px;
+    width: 100%;
   }
   .btn-title {
     width: 100px;
@@ -318,10 +319,10 @@ nav li a {
     margin-left: 90px;
   }
   .feature-image > img {
-    width: 100%;
+    width: 90%;
   }
   .feature-card {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
   .experience-card {
@@ -333,6 +334,10 @@ nav li a {
   }
   .feature-paragraph{
     width: 300px;
+    height: auto;
+  }
+  .facts >p{
+    width: 90%;
     height: auto;
   }
 }
@@ -347,7 +352,7 @@ nav li a {
     flex-direction: column;
   }
   .banner {
-    width: 750px;
+    width: 100%;
   }
   .team-images,
   .features {
@@ -371,5 +376,8 @@ nav li a {
   .feature-card {
     width: 90%;
     height: auto;
+  }
+  .feature-image > img {
+    width: 90%;
   }
 }
