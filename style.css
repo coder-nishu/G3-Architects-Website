@@ -101,6 +101,7 @@ nav li a {
 }
 .banner-image img {
   width: 100%;
+  height: auto;
 }
 .banner-image {
   margin: 20px;
@@ -158,7 +159,7 @@ nav li a {
   display: flex;
   gap: 146px;
 }
-.feature-paragraph{
+.feature-paragraph {
   margin-left: 50px;
   width: 520px;
 }
@@ -186,9 +187,9 @@ nav li a {
   padding: 25px 38px 30px 30px;
   margin-top: 20px;
 }
-.feature-image img{
-  height: 90%;
+.feature-image img {
   width: 100%;
+  height: auto;
 }
 .experience-card {
   width: 250px;
@@ -215,7 +216,6 @@ nav li a {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  
 }
 /* section - 2 facts css  */
 
@@ -296,11 +296,11 @@ nav li a {
   }
   .team-images {
     grid-template-columns: 1fr;
-    margin-left: 30px;
+    margin-left: 70px;
   }
-  .team-images > img
-  {
+  .team-images > img {
     width: 60%;
+    height: auto;
   }
   .team-container {
     align-items: flex-start;
@@ -314,11 +314,22 @@ nav li a {
   .feature-container {
     flex-direction: column;
   }
-  .feature-image{
+  .feature-image {
     margin-left: 90px;
   }
-  .feature-image >img{
+  .feature-image > img {
     width: 100%;
+  }
+  .feature-card {
+    width: 100%;
+    height: auto;
+  }
+  .experience-card {
+    width: 200px;
+    height: 100px;
+  }
+  .year{
+    font-size: 2rem;
   }
 }
 /* responsive media queeru for tablet  */
@@ -350,8 +361,11 @@ nav li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  .feature-image{
+  .feature-image {
     margin-left: 50px;
   }
-  
+  .feature-card {
+    width: 90%;
+    height: auto;
+  }
 }
