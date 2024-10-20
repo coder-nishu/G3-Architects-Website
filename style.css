@@ -37,7 +37,7 @@ nav {
   color: var(--Dark-01, #131313);
 
   font-family: "Work Sans";
-  font-size: 45px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -332,7 +332,7 @@ nav li a {
     font-size: 2rem;
   }
   .feature-paragraph{
-    width: 90%;
+    width: 300px;
     height: auto;
   }
 }
