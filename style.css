@@ -228,7 +228,7 @@ nav li a {
 }
 .facts-card-container {
   display: flex;
-  justify-content: left;
+  justify-content: space-evenly;
   margin: 60px;
 }
 .facts > p {
